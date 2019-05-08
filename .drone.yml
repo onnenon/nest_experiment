@@ -2,4 +2,5 @@ pipeline:
   build:
     image: node:10.15-alpine
     commands:
+      - npm install
       - npm run test
